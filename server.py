@@ -5,7 +5,7 @@ from sentry_sdk.integrations.bottle import BottleIntegration
 
 SERVER_URL = "https://still-escarpment-90121.herokuapp.com"
 
-sentry_sdk.init(dsn=os.environ.get("SENTRY_DSN"), integrations=[BottleIntegration()])  
+sentry_sdk.init(dsn="https://b15f326786794d0b82897e0c60971730@o375962.ingest.sentry.io/5196166", integrations=[BottleIntegration()])
   
 app = Bottle()  
 
